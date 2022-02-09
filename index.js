@@ -112,7 +112,7 @@ class SSIMiniWebpackplugin {
       content = await readFile(path.resolve(`${local}${pathname}`), { encoding: 'utf-8' });
     }
 
-    content = this.combine(content);
+    content = await this.combine(content);
     this.cache[pathname] = content;
 
     return content;
