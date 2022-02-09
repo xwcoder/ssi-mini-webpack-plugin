@@ -1,0 +1,41 @@
+{
+  "name": "ssi-mini-webpack-plugin",
+  "version": "0.0.0",
+  "main": "./index.js",
+  "description": "A webpack plugin to support ssi.",
+  "keywords": [
+    "webpack",
+    "ssi",
+    "plugin"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "release": "standard-version"
+  },
+  "lint-staged": {
+    "*.js": "eslint"
+  },
+  "author": {
+    "name": "creep",
+    "email": "creepcn@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xwcoder/ssi-mini-webpack-plugin.git"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.1.0",
+    "@commitlint/config-conventional": "^16.0.0",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.1",
+    "standard-version": "^9.3.2"
+  },
+  "dependencies": {
+    "html-minifier-terser": "^7.0.0-alpha.1",
+    "node-fetch": "^2.6.7"
+  }
+}
