@@ -1,6 +1,6 @@
 {
   "name": "ssi-mini-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./index.js",
   "description": "A webpack plugin to support ssi.",
   "keywords": [
